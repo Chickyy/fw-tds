@@ -192,7 +192,7 @@ class Product{
 	}
 
 	 public function __toString(){
-		return ($this->promotion??'no value').'';
+		return ($this->name??'no value').'';
 	}
 
 
